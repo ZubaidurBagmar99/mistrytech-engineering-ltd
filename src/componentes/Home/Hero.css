@@ -1,0 +1,42 @@
+/* Hero.css */
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-img {
+  width: 75%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.interior{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+/* .carousel-img1{
+    width: 75% !important;
+    
+} */
+@media (min-width: 480px) { /* Small devices */
+  .carousel-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) { /* Medium devices */
+  .carousel-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) { /* Large devices */
+  .carousel-img {
+    width: 50%;
+  }
+}

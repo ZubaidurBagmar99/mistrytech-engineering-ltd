@@ -1,0 +1,32 @@
+.marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.marquee-inner {
+  display: flex;
+  width: calc(200% + 100px); /* Adjust as needed */
+  animation: marquee 10s linear infinite;
+}
+
+.inner-image {
+  width: 3650px;
+  height: 100vh;
+}
+
+.marquee:hover .marquee-inner {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

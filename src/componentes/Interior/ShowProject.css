@@ -1,0 +1,7 @@
+.vertical-text p {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
