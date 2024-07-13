@@ -63,7 +63,7 @@ const Navbar = () => {
             {isDropdownOpen && (
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[2] mt-3 w-52 p-2 gap-2 shadow"
+                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-40 mt-3 w-52 p-2 gap-2 shadow"
                 onClick={closeDropdown}
               >
                 <li>
@@ -96,15 +96,40 @@ const Navbar = () => {
                     Furniture
                   </NavLink>
                 </li>
-                <li>
+                <li className="relative group">
                   <NavLink to="/about-us" activeClassName="text-blue-500">
                     About Us
                   </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/contact" activeClassName="text-blue-500">
-                    Contact
-                  </NavLink>
+                  <ul className="bg-base-100 shadow-lg rounded-lg w-52 z-40">
+                    <li>
+                      <NavLink to="/reviews" activeClassName="text-blue-500">
+                        Reviews
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/awards" activeClassName="text-blue-500">
+                        Awards
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/careers" activeClassName="text-blue-500">
+                        Careers
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/hours-location"
+                        activeClassName="text-blue-500"
+                      >
+                        Hours & Location
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/contact" activeClassName="text-blue-500">
+                        Contact Us
+                      </NavLink>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             )}
@@ -180,11 +205,6 @@ const Navbar = () => {
                   </NavLink>
                 </li>
               </ul>
-            </li>
-            <li>
-              <NavLink to="/contact" activeClassName="text-blue-500">
-                Contact
-              </NavLink>
             </li>
           </ul>
         </div>

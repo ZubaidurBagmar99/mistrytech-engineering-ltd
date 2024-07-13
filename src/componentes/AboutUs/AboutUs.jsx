@@ -1,15 +1,15 @@
 import WhoAreWe from "../Home/WhoAreWe";
 import TeamMemberCard from "../AboutUs/TeamMemberCard";
 import NewsCard from "../AboutUs/NewsCard";
-import Awards from "./Awards";
+// import Awards from "./Awards";
 
 const AboutUs = () => {
   return (
     <div>
-      <TeamMemberCard></TeamMemberCard>
       <WhoAreWe></WhoAreWe>
+      <TeamMemberCard></TeamMemberCard>
       <NewsCard></NewsCard>
-      <Awards></Awards>
+      {/* <Awards></Awards> */}
       <ul>
         <li>1.Award</li>
       </ul>

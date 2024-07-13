@@ -8,6 +8,8 @@ import RealEstate from "../componentes/RealEstate/RealEstate";
 import Contact from "../componentes/Contact/Contact";
 import Furniture from "../componentes/Furniture/Furniture";
 import AboutUs from "../componentes/AboutUs/AboutUs";
+import Awards from "../componentes/AboutUs/Awards";
+import Careers from "../componentes/Careers/Careers";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
       {
         path:"/contact",
         element:<Contact></Contact>
+      },
+      {
+        path:"/awards",
+        elements:<Awards></Awards>
+      },
+      {
+        path:"/careers",
+        elements:<Careers></Careers>
       }
       
     ],
