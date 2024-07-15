@@ -97,35 +97,35 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li className="relative group">
-                  <NavLink to="/about-us" activeClassName="text-blue-500">
+                  <NavLink to="/about-us">
                     About Us
                   </NavLink>
                   <ul className="bg-base-100 shadow-lg rounded-lg w-52 z-40">
                     <li>
-                      <NavLink to="/reviews" activeClassName="text-blue-500">
+                      <NavLink to="/reviews" >
                         Reviews
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/awards" activeClassName="text-blue-500">
+                      <NavLink to="/awards" >
                         Awards
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/careers" activeClassName="text-blue-500">
+                      <NavLink to="/careers" >
                         Careers
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
                         to="/hours-location"
-                        activeClassName="text-blue-500"
+                        
                       >
                         Hours & Location
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/contact" activeClassName="text-blue-500">
+                      <NavLink to="/contact" >
                         Contact Us
                       </NavLink>
                     </li>
@@ -138,7 +138,7 @@ const Navbar = () => {
             <img
               src={Logo}
               alt="Logo"
-              className="h-16 w-48 rounded-lg border-2 border-white dark:hover:bg-white"
+              className="h-16 w-48 rounded-lg dark:bg-white"
             />
           </Link>
         </div>

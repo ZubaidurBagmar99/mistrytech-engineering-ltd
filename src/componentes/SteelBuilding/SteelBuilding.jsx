@@ -1,5 +1,6 @@
 import ServicesAndSolutions from "./ServicesAndSolutions";
 import SteelBanner from "./SteelBanner";
+import SteelBuildingProject from "./SteelBuildingProject";
 
 
 const SteelBuilding = () => {
@@ -7,6 +8,7 @@ const SteelBuilding = () => {
         <div>
             <SteelBanner></SteelBanner>
             <ServicesAndSolutions></ServicesAndSolutions>
+            <SteelBuildingProject></SteelBuildingProject>
         </div>
     );
 };

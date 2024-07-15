@@ -2,6 +2,7 @@ import AboutCompany from "./AboutCompany";
 import HeroSection from "./HeroSection";
 import LatestProject from "./LatestProject";
 import Testmonials from "./Testmonials";
+import WhyChooseUs from "./WhyChooseUs";
 
 
 const Constraction = () => {
@@ -11,6 +12,7 @@ const Constraction = () => {
         <AboutCompany></AboutCompany>
         <LatestProject></LatestProject>
         <Testmonials></Testmonials>
+        <WhyChooseUs></WhyChooseUs>
       </div>
     );
 };

@@ -1,6 +1,7 @@
 import WhoAreWe from "../Home/WhoAreWe";
 import TeamMemberCard from "../AboutUs/TeamMemberCard";
 import NewsCard from "../AboutUs/NewsCard";
+import { Outlet } from "react-router-dom";
 // import Awards from "./Awards";
 
 const AboutUs = () => {
@@ -10,9 +11,7 @@ const AboutUs = () => {
       <TeamMemberCard></TeamMemberCard>
       <NewsCard></NewsCard>
       {/* <Awards></Awards> */}
-      <ul>
-        <li>1.Award</li>
-      </ul>
+      <Outlet></Outlet>
     </div>
   );
 };

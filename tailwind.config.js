@@ -4,6 +4,6 @@ export default {
   theme: {
     extend: {},
   },
+  darkMode: "class", // Enable dark mode by adding the 'class' strategy
   plugins: [require("daisyui")],
 };
-

@@ -4,17 +4,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import BGImg from "../../assets/images/bg.jpg"; // Background image
 
-import Interior from "../../assets/images/InteriorImg.jpg";
+import Interior from "../../assets/images/InteriorImgSlider.jpg";
 import Furniture from "../../assets/images/FurnitureSlider.jpg";
-import SteelBuilding from "../../assets/images/steelbuildingSliderImg.jpg";
-import Construction from "../../assets/images/Construction-1200x328.jpeg";
-import Building3 from "../../assets/images/carousel/building-3.png";
+import SteelBuilding from "../../assets/images/SteelbuildingSliderImg1.jpg";
+import Construction from "../../assets/images/ConstructionSliderImg.jpg";
+// import Building3 from "../../assets/images/carousel/building-3.png";
 
 import "./Hero.css"; // Import custom styles
 
 const Hero = () => {
   return (
-    <div className="relative h-[75vh] md:h-screen">
+    <div className="relative h-fit md:h-screen">
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center hidden "
         style={{
@@ -62,11 +62,11 @@ const Hero = () => {
           </SwiperSlide>
 
           {/* Building 3 */}
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="flex justify-center items-center h-full">
               <img src={Building3} alt="Building 3" className="carousel-img" />
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </div>
