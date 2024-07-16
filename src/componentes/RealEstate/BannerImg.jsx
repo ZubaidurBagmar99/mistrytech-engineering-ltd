@@ -3,7 +3,7 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import "./BannerImg.css"; // Ensure Tailwind CSS is imported
 
-import Img1 from "../../assets/images/13.jpg"; // Replace with your image path
+// import Img1 from "../../assets/images/13.jpg"; // Replace with your image path
 import Img2 from "../../assets/images/09.webp"; // Add more images as needed
 import Img3 from "../../assets/images/10.webp"; // Add more images as needed
 import Img4 from "../../assets/images/Website-4-1.jpg"; // Add more images as needed
@@ -55,9 +55,9 @@ const Carousel = () => {
   return (
     <div className="relative">
       <div ref={sliderRef} className="keen-slider">
-        <div className="keen-slider__slide">
+        {/* <div className="keen-slider__slide">
           <BannerImg src={Img1} title="Interior" />
-        </div>
+        </div> */}
         <div className="keen-slider__slide">
           <BannerImg src={Img2} title="Elegance" />
         </div>

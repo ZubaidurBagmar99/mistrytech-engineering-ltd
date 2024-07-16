@@ -127,7 +127,7 @@ const agents = [
 ];
 
 const AgentCard = ({ name, position, imgSrc, contactIcon, socialMedia }) => (
-  <div className="bg-white shadow-lg rounded-lg p-6 text-center transform transition duration-500 hover:scale-105 hover:shadow-xl hover:text-red-500">
+  <div className="bg-white shadow-lg rounded-lg p-6 text-center transform transition duration-500 hover:scale-105 hover:shadow-xl hover:text-red-500 dark:bg-slate-900">
     <img
       className="w-52 h-52 mx-auto object-cover rounded-lg"
       src={imgSrc}

@@ -89,7 +89,7 @@ const LatestProject = () => {
           }`}
           onClick={() => handleCategoryClick("all")}
         >
-          All categories
+          All Projects
         </button>
         <button
           type="button"

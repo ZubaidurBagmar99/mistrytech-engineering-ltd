@@ -39,22 +39,22 @@ const WhereCanYouFindUs = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">
-                Our Offices
+                Our Office
               </h3>
               <ul className="text-gray-600">
                 <li className="mb-2">
-                  <strong>New York:</strong> 456 Park Avenue, New York, NY
+                  <strong></strong> Kuripara More, UttorKhan-1230, Dhaka
                 </li>
-                <li className="mb-2">
+                {/* <li className="mb-2">
                   <strong>Los Angeles:</strong> 789 Sunset Blvd, Los Angeles, CA
-                </li>
-                <li className="mb-2">
+                </li> */}
+                {/* <li className="mb-2">
                   <strong>Chicago:</strong> 123 Lake Shore Drive, Chicago, IL
-                </li>
-                <li className="mb-2">
+                </li> */}
+                {/* <li className="mb-2">
                   <strong>San Francisco:</strong> 456 Market Street, San
                   Francisco, CA
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
